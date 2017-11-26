@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-23T11:41:04.499Z</updated>
+  <updated>2017-11-26T12:47:18.150Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,21 +17,23 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>更新优化</title>
     <link href="http://yoursite.com/2017/11/25/2017-11-23-%E4%BC%98%E5%8C%96-%E6%9B%B4%E6%96%B0/"/>
     <id>http://yoursite.com/2017/11/25/2017-11-23-优化-更新/</id>
     <published>2017-11-25T04:36:38.157Z</published>
-    <updated>2017-11-23T11:41:04.499Z</updated>
+    <updated>2017-11-26T12:47:18.150Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>layout:     post<br>title:       网站更新优化<br>keywords:   [geyan blog，day2]<br>category:   更新</p><h2 id="tags-更新-优化"><a href="#tags-更新-优化" class="headerlink" title="tags:       [更新, 优化]"></a>tags:       [更新, 优化]</h2><p>本次更新如下：</p><ul><li>更新了baidu-analytics.html文件和cnzz-analytics.html文件，使网站分析变得更加简单。</li><li>优化了baidu-push.html文件，增加主动推送链接功能，增大了收录可能。</li><li>增加了网易音乐插件，打开网站会自动播放，具体关闭打开使用方法如下：<br>1.打开网站<a href="http://dmgroup.site" target="_blank" rel="noopener">http://dmgroup.site</a><br>2.点击如图箭头处指出的右侧菜单栏按钮<br><img src="http://dmgroup.site/images/20171123a.jpg" alt="此处输入图片的描述"><br>3.出现播放器便可选择播放关闭，PS:默认播放,如图：<br><img src="http://dmgroup.site/images/20171123b.jpg" alt="此处输入图片的描述"></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>本次更新如下：</p><ul><li>更新了baidu-analytics.html文件和cnzz-analytics.html文件，使网站分析变得更加简单。</li><li>优化了baidu-push.html文件，增加主动推送链接功能，增大了收录可能。</li><li>增加了网易音乐插件，打开网站会自动播放，具体关闭打开使用方法如下：<br>1.打开网站<a href="http://dmgroup.site" target="_blank" rel="noopener">http://dmgroup.site</a><br>2.点击如图箭头处指出的右侧菜单栏按钮<br><img src="http://dmgroup.site/images/20171123a.jpg" alt="此处输入图片的描述"><br>3.出现播放器便可选择播放关闭，PS:默认播放,如图：<br><img src="http://dmgroup.site/images/20171123b.jpg" alt="此处输入图片的描述"></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;hr&gt;
-&lt;p&gt;layout:     post&lt;br&gt;title:       网站更新优化&lt;br&gt;keywords:   [geyan blog，day2]&lt;br&gt;category:   更新&lt;/p&gt;
-&lt;h2 id=&quot;tags-更新-优化&quot;&gt;&lt;a href=&quot;#tags-更新
+        &lt;p&gt;本次更新如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;更新了baidu-analytics.html文件和cnzz-analytics.html文件，使网站分析变得更加简单。&lt;/li&gt;
+&lt;li&gt;优化了baidu-push.html文件，增加主动推送链接功能，增大了收录可能。&lt;/li&gt;
+
       
     
     </summary>
