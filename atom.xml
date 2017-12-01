@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.mgroup.site/"/>
+  <link href="http://www.dmgroup.site/"/>
   <updated>2017-11-27T10:56:34.911Z</updated>
-  <id>http://www.mgroup.site/</id>
+  <id>http://www.dmgroup.site/</id>
   
   <author>
     <name>格岩</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>更新优化</title>
-    <link href="http://www.mgroup.site/2017/11/25/2017-11-23-%E4%BC%98%E5%8C%96-%E6%9B%B4%E6%96%B0/"/>
-    <id>http://www.mgroup.site/2017/11/25/2017-11-23-优化-更新/</id>
+    <link href="http://www.dmgroup.site/2017/11/25/2017-11-23-%E4%BC%98%E5%8C%96-%E6%9B%B4%E6%96%B0/"/>
+    <id>http://www.dmgroup.site/2017/11/25/2017-11-23-优化-更新/</id>
     <published>2017-11-25T15:47:44.000Z</published>
     <updated>2017-11-27T10:56:34.911Z</updated>
     
@@ -37,17 +37,17 @@
     
     </summary>
     
-      <category term="Hexo教程" scheme="http://www.mgroup.site/categories/Hexo%E6%95%99%E7%A8%8B/"/>
+      <category term="Hexo教程" scheme="http://www.dmgroup.site/categories/Hexo%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="“更新”" scheme="http://www.mgroup.site/tags/%E2%80%9C%E6%9B%B4%E6%96%B0%E2%80%9D/"/>
+      <category term="“更新”" scheme="http://www.dmgroup.site/tags/%E2%80%9C%E6%9B%B4%E6%96%B0%E2%80%9D/"/>
     
   </entry>
   
   <entry>
     <title>浅谈成功</title>
-    <link href="http://www.mgroup.site/2017/11/25/2017-11-27-blog/"/>
-    <id>http://www.mgroup.site/2017/11/25/2017-11-27-blog/</id>
+    <link href="http://www.dmgroup.site/2017/11/25/2017-11-27-blog/"/>
+    <id>http://www.dmgroup.site/2017/11/25/2017-11-27-blog/</id>
     <published>2017-11-25T12:00:00.000Z</published>
     <updated>2017-11-27T10:56:34.914Z</updated>
     
@@ -62,17 +62,17 @@
     
     </summary>
     
-      <category term="感悟" scheme="http://www.mgroup.site/categories/%E6%84%9F%E6%82%9F/"/>
+      <category term="感悟" scheme="http://www.dmgroup.site/categories/%E6%84%9F%E6%82%9F/"/>
     
     
-      <category term="感悟" scheme="http://www.mgroup.site/tags/%E6%84%9F%E6%82%9F/"/>
+      <category term="感悟" scheme="http://www.dmgroup.site/tags/%E6%84%9F%E6%82%9F/"/>
     
   </entry>
   
   <entry>
     <title></title>
-    <link href="http://www.mgroup.site/2017/11/25/2017-10-29-blog-UI-Thread%20/"/>
-    <id>http://www.mgroup.site/2017/11/25/2017-10-29-blog-UI-Thread /</id>
+    <link href="http://www.dmgroup.site/2017/11/25/2017-10-29-blog-UI-Thread%20/"/>
+    <id>http://www.dmgroup.site/2017/11/25/2017-10-29-blog-UI-Thread /</id>
     <published>2017-11-25T04:36:38.095Z</published>
     <updated>2017-11-27T04:25:27.920Z</updated>
     
@@ -94,8 +94,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.mgroup.site/2017/11/25/hello-world/"/>
-    <id>http://www.mgroup.site/2017/11/25/hello-world/</id>
+    <link href="http://www.dmgroup.site/2017/11/25/hello-world/"/>
+    <id>http://www.dmgroup.site/2017/11/25/hello-world/</id>
     <published>2017-11-25T03:54:32.984Z</published>
     <updated>2017-11-25T03:54:32.999Z</updated>
     
