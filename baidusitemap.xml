@@ -19,15 +19,20 @@
 
     
   <url>
-    <loc>geyan666.coding.me/geyan666/geyan666/2017/12/30/si/</loc>
+    <loc>geyan666.coding.me/geyan666/geyan666/2017/11/25/%E4%BC%98%E5%8C%96-%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2017-12-31T09:21:28.953Z</lastmod>
     <data>
         <display>
-        <title>si</title>
-        <pubTime>2017-12-30T17:55:17.000Z</pubTime>
+        <title>更新优化</title>
+        <pubTime>2017-11-25T23:47:44.000Z</pubTime>
         
+        <tag>更新</tag>
+         
          
            
+             
+              <breadCrumb title="Hexo教程" url="geyan666.coding.me/geyan666/geyan666/categories/Hexo%E6%95%99%E7%A8%8B/"/>
+          
         </display>
     </data>
     </url>
@@ -129,21 +134,6 @@
 
     
   <url>
-    <loc>geyan666.coding.me/geyan666/geyan666/2017/12/30/nian/</loc>
-    <lastmod>2017-12-31T09:21:28.953Z</lastmod>
-    <data>
-        <display>
-        <title>nian</title>
-        <pubTime>2017-12-30T17:54:55.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>geyan666.coding.me/geyan666/geyan666/2017/11/25/blog/</loc>
     <lastmod>2017-12-31T09:21:28.953Z</lastmod>
     <data>
@@ -158,41 +148,6 @@
              
               <breadCrumb title="感悟" url="geyan666.coding.me/geyan666/geyan666/categories/%E6%84%9F%E6%82%9F/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>geyan666.coding.me/geyan666/geyan666/2017/11/25/%E4%BC%98%E5%8C%96-%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2017-12-31T09:21:28.953Z</lastmod>
-    <data>
-        <display>
-        <title>更新优化</title>
-        <pubTime>2017-11-25T23:47:44.000Z</pubTime>
-        
-        <tag>更新</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo教程" url="geyan666.coding.me/geyan666/geyan666/categories/Hexo%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>geyan666.coding.me/geyan666/geyan666/2017/12/31/hello-world/</loc>
-    <lastmod>2017-12-31T09:21:28.953Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-12-31T09:21:28.953Z</pubTime>
-        
-         
-           
         </display>
     </data>
     </url>
