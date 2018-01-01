@@ -1,0 +1,1577 @@
+<!DOCTYPE html>
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
+
+  
+  
+    
+    
+  <script src="/geyan666/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/geyan666/lib/pace/pace-theme-flash.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/geyan666/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/geyan666/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/geyan666/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/geyan666/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/geyan666/images/favicon-32x32-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/geyan666/images/favicon-16x16-next.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/geyan666/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="博客,seo,索引," />
+
+
+
+
+
+  <link rel="alternate" href="/geyan666/atom.xml" title="Blog-格岩志" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="如何使用github pages建立你的网站, 并让百度索引你的网站。  如果给你40分钟，可以搭建一个如下图所示的网站，你愿意吗？如果你愿意，那我们就开始干！。如果给你40分钟，可以搭建一个如下图所示的网站，你愿意吗？如果你愿意，那我们就开始干！。">
+<meta name="keywords" content="博客,seo,索引">
+<meta property="og:type" content="article">
+<meta property="og:title" content="手把手教你用github pages搭建博客">
+<meta property="og:url" content="geyan666.coding.me/geyan666/2017/12/15/blog-seo-baidu/index.html">
+<meta property="og:site_name" content="Blog-格岩志">
+<meta property="og:description" content="如何使用github pages建立你的网站, 并让百度索引你的网站。  如果给你40分钟，可以搭建一个如下图所示的网站，你愿意吗？如果你愿意，那我们就开始干！。如果给你40分钟，可以搭建一个如下图所示的网站，你愿意吗？如果你愿意，那我们就开始干！。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://www.dmgroup.site/images/yu.png">
+<meta property="og:image" content="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png">
+<meta property="og:updated_time" content="2017-12-31T09:21:28.953Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="手把手教你用github pages搭建博客">
+<meta name="twitter:description" content="如何使用github pages建立你的网站, 并让百度索引你的网站。  如果给你40分钟，可以搭建一个如下图所示的网站，你愿意吗？如果你愿意，那我们就开始干！。如果给你40分钟，可以搭建一个如下图所示的网站，你愿意吗？如果你愿意，那我们就开始干！。">
+<meta name="twitter:image" content="https://www.dmgroup.site/images/yu.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/geyan666/',
+    scheme: 'Mist',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="geyan666.coding.me/geyan666/2017/12/15/blog-seo-baidu/"/>
+
+
+
+
+
+  <title>手把手教你用github pages搭建博客 | Blog-格岩志</title>
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-111275783-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?cf0c32fa8c367d01b6231dbee15a6038";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/geyan666/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Blog-格岩志</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description"></h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/geyan666/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/geyan666/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/geyan666/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/geyan666/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/geyan666/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+ 
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="geyan666.coding.me/geyan666/geyan666/2017/12/15/blog-seo-baidu/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="格岩">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/geyan666/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog-格岩志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">手把手教你用github pages搭建博客</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-15T18:03:48+00:00">
+                2017-12-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/geyan666/categories/博客/" itemprop="url" rel="index">
+                    <span itemprop="name">博客</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/geyan666/2017/12/15/blog-seo-baidu/" class="leancloud_visitors" data-flag-title="手把手教你用github pages搭建博客">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+              <span>℃</span>
+			 </span>
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  2,730
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  10
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote class="blockquote-center"><p>如何使用github pages建立你的网站, 并让百度索引你的网站。</p>
+</blockquote>
+<p>如果给你40分钟，可以搭建一个如下图所示的网站，你愿意吗？如果你愿意，那我们就开始干！。如果给你40分钟，可以搭建一个如下图所示的网站，你愿意吗？如果你愿意，那我们就开始干！。<br><img src="https://www.dmgroup.site/images/yu.png" alt="此处输入图片的描述"><br><a id="more"></a></p>
+<h3 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h3><p>搭建博客网站有各种各样的方法，根据不同的需求，又不同的做法。如果你只是想单纯做一个博客，和世界分享你的观点和视角，那么我推荐使用 github pages。</p>
+<ol>
+<li>github page 学习成本最低，相比其他搭建方式而言，不需要太多的服务器基础。</li>
+<li>天然基于版本控制，便于对代码进行迁移。日后若想进行博客的迁移，只需要支持 Jekyll 或者 Hexo 就行。</li>
+<li>Github Pages 本身就是一个 git 项目，其他人可以 fork 或者参与到你的博客建设中，这本身可以独立也可以互相协作，换而言之，这也是你的 contributions , 如下图所示，当别人进入你的 github 主页时，就能看到你的活跃程度了。</li>
+</ol>
+<p>Github Pages 需要相应的博客引擎来驱动，主流的有两个 <a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a> 和 <a href="https://jekyllrb.com/" target="_blank" rel="noopener">https://jekyllrb.com/</a>。两者的使用频率都比较高，我选择了 Jekyll，因为目前国内的 <a href="http://coding.net" target="_blank" rel="noopener">coding.net</a> （国内的github）只支持 Jekyll , 如果日后 github 被墙 (已经短暂发生过…)，还可以无缝切换到 coding.net 上。</p>
+<hr>
+<h3 id="需要准备的知识和事物"><a href="#需要准备的知识和事物" class="headerlink" title="需要准备的知识和事物"></a>需要准备的知识和事物</h3><ol>
+<li>注册一个 Github 账号，点击<a href="https://github.com/" target="_blank" rel="noopener">这里</a>进行注册。</li>
+<li>了解一些 git 版本控制系统 的操作原理，如果不熟悉的话，可以通过 <a href="https://git-scm.com/" target="_blank" rel="noopener">git-scm</a> 来进行学习，这个网站在墙外，不能访问的话，可以参考这个极简版本 <a href="http://www.bootcss.com/p/git-guide/" target="_blank" rel="noopener">git-guide</a>。在学习 git 的基本操作后，要学会使用这几个命令 <code>git pull</code> 或者 <code>git fetch</code>, <code>git rebase</code>，以及<code>git push</code>。</li>
+<li>购买个人域名（可选），使用 github pages，会给你一个 github<br>的域名，例如我的用户名是 woaitqs，那么我就有一个 <a href="http://woaitqs.github.io" target="_blank" rel="noopener">woaitqs.github.io</a> 的域名。如果你想要有一个属于自己的域名，推荐大家使用 <a href="http://godaddy.com/" target="_blank" rel="noopener">GoDaddy</a>，这个国外的老牌域名服务商。由于这是墙外的服务提供商，在国内还是存在一些不稳定因素，需要搭配 <a href="http://dnspod.cn/" target="_blank" rel="noopener">DNSPod</a> 使用。当然如果你嫌需要2个地方折腾麻烦，可以和我一样选择用阿里的 <a href="https://wanwang.aliyun.com/" target="_blank" rel="noopener">万网</a> 进行域名注册。</li>
+</ol>
+<p><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="github logo"></p>
+<p>这么萌，你确定不要试试吗？</p>
+<hr>
+<h3 id="配置-Github"><a href="#配置-Github" class="headerlink" title="配置 Github"></a>配置 Github</h3><p>Github 是出名的版本控制仓库，所谓仓库就是存放货物的地方，而 Github 就是就是存放代码的仓库。既然是仓库，那么就得要钥匙，不然别人去我们自己的仓库里面偷东西怎么办？同时我们也得知道怎么往仓库里放东西，在这一小节，就来看怎么配置 Github。</p>
+<ul>
+<li><p>安装 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git 工具</a>，点击下载并安装。</p>
+</li>
+<li><p>使用仓库前，标明自己的身份（名字和邮箱）。安装git后，通过命令行打开终端，cmd (windows，需配置环境变量) 或者 Terminal，输入一下命令。</p>
+</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name "YOUR NAME"</span><br><span class="line">git config --global user.email "YOUR EMAIL ADDRESS"</span><br></pre></td></tr></table></figure>
+<ul>
+<li>生成相应的令牌，本地一份，Github 一份，这样 Github 可以在你使用仓库的时候，进行校验确定你的身份。继续在终端里面输入下面的命令。</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line">mkdir key_backup</span><br><span class="line">ssh-keygen -t rsa -C "*your_email@youremail.com*"</span><br></pre></td></tr></table></figure>
+<p>这样在 .ssh 目录下会有 id_rsa.pub ，使用 <code>cat id_rsa.pub</code> 命令，可参看具体内容。</p>
+<ul>
+<li>将 id_rsa.pub(令牌) 传递到 Github ，通过 “Account Settings” &gt; Click “SSH Keys” &gt; Click “Add SSH key” 路径可以提交，如下图所示</li>
+</ul>
+<ul>
+<li>再测试一下</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<p>如果是下面的反应：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">The authenticity of host 'github.com (207.97.227.239)' can't be established.</span><br><span class="line">RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.</span><br><span class="line">Are you sure you want to continue connecting (yes/no)?</span><br></pre></td></tr></table></figure>
+<p>不要紧张，输入yes就好，然后会看到：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi &lt;em&gt;username&lt;/em&gt;! You have successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
+<p>也可以参考 <a href="https://help.github.com/articles/set-up-git/" target="_blank" rel="noopener">github 官方教程</a></p>
+<hr>
+<h3 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h3><p><strong>后面的 <code>USERNAME</code> 均代表你 Github 的账号，再使用时请自行替换。</strong></p>
+<ul>
+<li>进入你的 github 主页，选择 <code>new repository</code>，进入到 <a href="https://github.com/new" target="_blank" rel="noopener">新建仓库</a> 的界面。新建一个 USERNAME.github.com 的仓库，这里 <code>USERNAME</code> 是你的 Github 的用户名，且只能是你 Github 的账户名。</li>
+</ul>
+<ul>
+<li>拉取现有的博客模板进入你的仓库。这里<code>https://github.com/plusjade/jekyll-bootstrap.git</code> 也可以是其他博客的仓库地址，在最开始的阶段还是建议选择 <code>https://github.com/plusjade/jekyll-bootstrap.git</code> 作为入门的仓库，该仓库提供了几款不错的样式。继续在终端中进行这几个步骤。</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.com</span><br><span class="line">  cd USERNAME.github.com</span><br><span class="line">  git remote set-url origin git@github.com:USERNAME/USERNAME.github.com.git</span><br><span class="line">  git push origin master</span><br></pre></td></tr></table></figure>
+<p>这里所完成的事情，就是拷贝一份别人的仓库，并作为自己的仓库，便于日后自己进行自定义的修改。</p>
+<ul>
+<li>再耐心等等几分钟，点击 <a href="http://USERNAME.github.com" target="_blank" rel="noopener">http://USERNAME.github.com</a> 就能看到博客界面了。</li>
+</ul>
+<p>Cheers！来，朋友干一杯！</p>
+<hr>
+<h3 id="第一篇博文"><a href="#第一篇博文" class="headerlink" title="第一篇博文"></a>第一篇博文</h3><p>在看到界面之后，现在该看看怎么写第一篇博客了。博客的正常工作，需要相关的博客引擎来支持，这就是前文中提及的 <a href="https://jekyllrb.com/" target="_blank" rel="noopener">jekyll</a> , 在 Github Pages 已经安装完成了，因而 前面所使用的 <a href="http://USERNAME.github.com" target="_blank" rel="noopener">http://USERNAME.github.com</a> 才能看到正常的画面。</p>
+<p>那么如果想在本地也看到效果后，再上传 Github 的话，可以在本地安装 Jekyll。Jekyll 的安装依赖于 Ruby，因而安装前需要下载 Ruby，具体的步骤如下。</p>
+<ol>
+<li><p><strong>安装Ruby</strong> : 对于 Windows 用户而言，非常简单，从 <a href="http://rubyinstaller.org/downloads/" target="_blank" rel="noopener">rubyinstaller.org</a> 下载即可。而 Mac 用户，最新版的系统已经自带，无需处理。</p>
+</li>
+<li><p><strong>安装 Gem</strong> : 安装 Ruby 过后，就可以安装可以在 Ruby 运行的软件，有一个工具可以帮我们管理 Ruby 软件，这就是 Gem，类似于 Mac 上的 Homebrew，Ubuntu 上的 apt-get，或者手机上的 豌豆荚 23333。安装方式也很简单，<a href="https://rubygems.org/pages/download" target="_blank" rel="noopener">rubygems.org</a> 从这个网站上进行下载即可。</p>
+</li>
+<li><p><strong>安装 Jekyll</strong> : 有了软件管理器后，现在要做的事情就是安装今天的主角 Jekyll ，非常简单，一行话的事情。</p>
+</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gem install jekyll</span><br></pre></td></tr></table></figure>
+<ol>
+<li><p><strong>验证安装</strong> : 执行 <code>jekyll serve</code> 命令，然后在浏览器访问 <a href="http://localhost:4000/index.html" target="_blank" rel="noopener">localhost:4000</a> 如果一切正常，你就能看到与 Github Pages 上相同的画面了。</p>
+</li>
+<li><p><strong>享受书写</strong> ：首先创建一篇文章，通过 rake 命令即可。<code>rake post title=&quot;Hello World&quot;</code> 这样就创建了一篇 YYYY-MM-DD-title-Hello-world.md 的文章。文章采用的是 markdown 语法进行编写，关于 markdown 语法，这里有一篇不错的文章进行介绍，<a href="http://wowubuntu.com/markdown/" target="_blank" rel="noopener">点击查看</a> 。</p>
+</li>
+<li><p><strong>本地查看与上传</strong> : 同样通过<code>jekyll serve</code>，在浏览器中进行查看，如果没什么问题的话，现在就可以上传到服务端。</p>
+</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> 将新添加的文件加入索引中</span><br><span class="line">git add .</span><br><span class="line"><span class="meta">#</span> 将这次的修改作为一个打包</span><br><span class="line">git commit -am "first blood"</span><br><span class="line"><span class="meta">#</span> 拉取远程仓库的代码</span><br><span class="line">git fetch</span><br><span class="line"><span class="meta">#</span> 与远程仓库的代码进行比对和合并</span><br><span class="line">git rb</span><br><span class="line"><span class="meta">#</span> 提交到远程仓库</span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
+<p>再耐心地等待一小会，访问这个链接 <a href="http://USERNAME.github.com" target="_blank" rel="noopener">http://USERNAME.github.com</a> 即可查看你提交的内容。</p>
+<hr>
+<h3 id="Markdown-语法简介"><a href="#Markdown-语法简介" class="headerlink" title="Markdown 语法简介"></a>Markdown 语法简介</h3><p>markdown 语法十分简单，非常有利于写作，这里做一个简单介绍，熟悉的读者可以跳过这一章节。</p>
+<p># 表示标题，## 表示2级标题，同理####表示4级标题</p>
+<p>空行表示新的段落，如果不空行的话，markdown 认为是同一段落</p>
+<p>[A](B) 这样样式表示为链接，A为你想要显示的文字，B为实际的链接</p>
+<p>![A](B) 这种样式表示图片，A为图片的描述文字，B为图片链接</p>
+<p>* 表示无序列表，1,2,3 表示有序列表</p>
+<p>以上就是 Markdown 的基本语法。</p>
+<hr>
+<h3 id="配置域名"><a href="#配置域名" class="headerlink" title="配置域名"></a>配置域名</h3><blockquote>
+<p>一个小插曲<br>据说<em>百度爬虫</em>爬得太猛烈，已经对很多<em>Github</em> 用户造成了可用性的问题了，而禁用<em>百度爬虫</em>这一举措可能会一直持续下去。换而言之，Github Pages 无法被百度索引。这也是我放弃使用 <a href="http://geyan666.github.io" target="_blank" rel="noopener">geyan666.github.io</a> 作为我域名的缘故。</p>
+</blockquote>
+<p>当然你特有的域名，也是对你自己的一种投资，非常值得。</p>
+<p>解决上诉的问题，首先需要买一个域名，因为万网自带云解析，因为就直接在万网买了 <a href="http://www.dmgroup.site" target="_blank" rel="noopener">dmgroup.site</a> 的域名。当然也可以使用其他域名服务提供商，建议使用 <a href="https://www.aliyun.com/" target="_blank" rel="noopener">阿里云</a>。</p>
+<p>接下来需要告知github，现在你有域名了。在根目录下创建 <code>CNAME</code> 的文件，一定要<code>大写</code>，在文件中输入你的域名即可。在 Github 上直接操作，或者在本地操作，与提交博客的方式一样上传到 Github 都可以。等上几分钟，就可以通过你的域名进行访问了，点击 <a href="http://www.dmgroup.site" target="_blank" rel="noopener">dmgroup.site</a> 就和  <a href="http://geyan666.github.io" target="_blank" rel="noopener">geyan666.github.io</a> 同样效果了。</p>
+<p>接下来解决百度无法索引的问题，从问题出发，既然百度无法对 Github Pages 进行爬虫，那么对百度走单独的通道，不就解决这个问题了吗？那么单独针对百度的镜像从哪里来？可以是国内的 Coding.net 也可以是自行搭建的 VPS。方法与配置 Github Pages 类似，就不在赘述，可参考 <a href="http://youthyblog.com/2015/08/04/github%E5%B1%8F%E8%94%BD%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/" target="_blank" rel="noopener">github屏蔽百度爬虫的解决办法</a>。</p>
+<p>现在针对百度和默认，配置相关的域名解析即可，如下图所示。</p>
+<p>当博客访问量不高的时候，可以试试这个外链工具 <a href="http://tool.lusongsong.com/seo/" target="_blank" rel="noopener">seo 外链生成器</a></p>
+<hr>
+<h3 id="其他资源"><a href="#其他资源" class="headerlink" title="其他资源"></a>其他资源</h3><p>在生成相关的博客后，如果想进一步自定义，还需要对 分页 / 目录 / 主题 / 摘要 / 图床 这些地方进行小的改进，这里先做简单介绍，如果读者有相应需求，可以在详细说明。</p>
+<p>分页：<br>通过 jekyll-paginate 来实现，可自定义每页文章数量。</p>
+<p>目录：<br>使用 markdown 为kramdown时，可使用 TOC 工具自动完成。</p>
+<p>主题：<br>继承他人的样式，或者自定义修改。</p>
+<p>摘要：<br>我采用了<!--break-->这个注释的方式，如果检查到这个注释，就不再往下显示。</p>
+<p>图床：<br>这里重点推荐 <a href="https://www.qiniu.com/" target="_blank" rel="noopener">七千牛</a>，谁用谁知道。</p>
+<p>最后祝大家博客搭建顺利，玩的开心！</p>
+
+      
+    </div>
+    
+    
+    
+
+    <div>
+      
+        <div>
+    
+        <div 
+		style="text-align:center;
+		color: #ccc;
+		font-size: 14px;
+		font-family: Courier New;
+		">
+		<br><hr>
+		-------------
+		End
+		<i class="fa fa-paw"></i>
+		Thank For Your Reading
+		-------------
+		</div>
+    
+</div>
+      
+    </div>
+
+    
+
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    格岩
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="geyan666.coding.me/geyan666/2017/12/15/blog-seo-baidu/" title="手把手教你用github pages搭建博客">geyan666.coding.me/geyan666/2017/12/15/blog-seo-baidu/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/geyan666/tags/博客/" rel="tag"><i class="fa fa-tag"></i> 博客</a>
+          
+            <a href="/geyan666/tags/seo/" rel="tag"><i class="fa fa-tag"></i> seo</a>
+          
+            <a href="/geyan666/tags/索引/" rel="tag"><i class="fa fa-tag"></i> 索引</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/geyan666/2017/12/08/myblog/" rel="next" title="浅谈我的博客时代">
+                <i class="fa fa-chevron-left"></i> 浅谈我的博客时代
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/geyan666/2017/12/30/nian/" rel="prev" title="nian">
+                nian <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDQ3NC83MDI4"></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/geyan666/images/avatar.gif"
+                alt="格岩" />
+            
+              <p class="site-author-name" itemprop="name">格岩</p>
+              <p class="site-description motion-element" itemprop="description">逢君一笑，人间无此欢喜</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/geyan666/archives/">
+              
+                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/geyan666/categories/index.html">
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/geyan666/tags/index.html">
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/geyan666/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          <div class="links-of-author motion-element">
+            
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/geyan666/" target="_blank" title="GitHub">
+                    
+                      <i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://www.cnblogs.com/geyan666/" target="_blank" title="cnblogs">
+                    
+                      <i class="fa fa-fw fa-codiepie"></i>cnblogs</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://www.zhihu.com/people/ge-yan-26-50/activities/" target="_blank" title="zhihu">
+                    
+                      <i class="fa fa-fw fa-dashcube"></i>zhihu</a>
+                </span>
+              
+            
+          </div>
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                推荐链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://home.dmgroup.site/" title="主页" target="_blank">主页</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+          <div style="height: 40px;"></div>
+          <div id="player1" class="aplayer" style="width:210px; height: 66px; background-color: #FFFFFF;margin:0 auto;"></div>
+            <script src="/js/src/APlayer.min.js"></script>
+            <script type="text/javascript">
+            var ap = new APlayer({
+              element: document.getElementById('player1'),
+              narrow: false,
+              autoplay: false,
+              showlrc: false,
+              mutex: false,
+              theme: '#ad7a86',
+              mode: 'circulation',
+              music:
+                  {
+                      title: '我也很想他',
+                      author: '孙燕姿',
+                      url: 'http://p00xnofp8.bkt.clouddn.com/%E5%AD%99%E7%87%95%E5%A7%BF-%E6%88%91%E4%B9%9F%E5%BE%88%E6%83%B3%E4%BB%96.mp3',
+                      pic: 'http://p00xnofp8.bkt.clouddn.com/T002R300x300M000000E07bx0REaHm.jpg'
+                  },
+            });
+          </script>
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#背景介绍"><span class="nav-number">1.</span> <span class="nav-text">背景介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#需要准备的知识和事物"><span class="nav-number">2.</span> <span class="nav-text">需要准备的知识和事物</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置-Github"><span class="nav-number">3.</span> <span class="nav-text">配置 Github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#博客搭建"><span class="nav-number">4.</span> <span class="nav-text">博客搭建</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第一篇博文"><span class="nav-number">5.</span> <span class="nav-text">第一篇博文</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown-语法简介"><span class="nav-number">6.</span> <span class="nav-text">Markdown 语法简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置域名"><span class="nav-number">7.</span> <span class="nav-text">配置域名</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#其他资源"><span class="nav-number">8.</span> <span class="nav-text">其他资源</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+	
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        
+<div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">格岩</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Hosted by <a class="theme-link" target="_blank" href="https://pages.coding.me">Coding Pages</a></div>
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/geyan666/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/geyan666/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/geyan666/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/geyan666/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/geyan666/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/geyan666/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/geyan666/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/geyan666/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/geyan666/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/geyan666/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/geyan666/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/geyan666/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/geyan666/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("T7nCjkO4hP9tOHMW8U7hBvNU-gzGzoHsz", "FlMTpcXpsR6zy1xAB8tYXlqu");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+  
+  
+
+
+  
+
+  
+
+  
+<div id="hexo-helper-live2d">
+  <canvas id="live2dcanvas" width="150" height="300"></canvas>
+</div>
+<style>
+  #live2dcanvas{
+    position: fixed;
+    width: 150px;
+    height: 300px;
+    opacity:10;
+    right: 0px;
+    z-index: 999;
+    pointer-events: none;
+    bottom: -20px;
+  }
+</style>
+<script type="text/javascript" src="/live2d/device.min.js"></script>
+<script type="text/javascript">
+const loadScript = function loadScript(c,b){var a=document.createElement("script");a.type="text/javascript";"undefined"!=typeof b&&(a.readyState?a.onreadystatechange=function(){if("loaded"==a.readyState||"complete"==a.readyState)a.onreadystatechange=null,b()}:a.onload=function(){b()});a.src=c;document.body.appendChild(a)};
+(function(){
+  if((typeof(device) != 'undefined') && (device.mobile())){
+    document.getElementById("live2dcanvas").style.width = '75px';
+    document.getElementById("live2dcanvas").style.height = '150px';
+  }else
+    if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
+  loadScript("/live2d/script.js", function(){loadlive2d("live2dcanvas", "/live2d/assets/hijiki.model.json", 0.5);});
+})();
+</script>
+
+  <!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
+
+</body>
+</html>
