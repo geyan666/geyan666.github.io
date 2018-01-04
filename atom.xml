@@ -6,7 +6,7 @@
   <link href="/geyan666/atom.xml" rel="self"/>
   
   <link href="geyan666.coding.me/geyan666/"/>
-  <updated>2018-01-04T10:45:54.950Z</updated>
+  <updated>2017-12-31T09:21:28.953Z</updated>
   <id>geyan666.coding.me/geyan666/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>这是一个webide的测试</title>
-    <link href="geyan666.coding.me/geyan666/2017/12/31/eee/"/>
-    <id>geyan666.coding.me/geyan666/2017/12/31/eee/</id>
-    <published>2017-12-31T09:25:36.000Z</published>
-    <updated>2018-01-04T10:45:54.950Z</updated>
-    
-    <content type="html"><![CDATA[<p>This is a test.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;This is a test.&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>手把手教你用github pages搭建博客</title>

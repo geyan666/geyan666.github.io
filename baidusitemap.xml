@@ -4,15 +4,24 @@
 
     
   <url>
-    <loc>geyan666.coding.me/geyan666/geyan666/2017/12/31/eee/</loc>
-    <lastmod>2018-01-04T10:45:54.950Z</lastmod>
+    <loc>geyan666.coding.me/geyan666/geyan666/2017/12/15/blog-seo-baidu/</loc>
+    <lastmod>2017-12-31T09:21:28.953Z</lastmod>
     <data>
         <display>
-        <title>这是一个webide的测试</title>
-        <pubTime>2017-12-31T09:25:36.000Z</pubTime>
+        <title>手把手教你用github pages搭建博客</title>
+        <pubTime>2017-12-15T18:03:48.000Z</pubTime>
         
+        <tag>博客</tag>
+         
+        <tag>seo</tag>
+         
+        <tag>索引</tag>
+         
          
            
+             
+              <breadCrumb title="博客" url="geyan666.coding.me/geyan666/geyan666/categories/%E5%8D%9A%E5%AE%A2/"/>
+          
         </display>
     </data>
     </url>
@@ -98,30 +107,6 @@
         <tag>前端</tag>
          
         <tag>博客</tag>
-         
-         
-           
-             
-              <breadCrumb title="博客" url="geyan666.coding.me/geyan666/geyan666/categories/%E5%8D%9A%E5%AE%A2/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>geyan666.coding.me/geyan666/geyan666/2017/12/15/blog-seo-baidu/</loc>
-    <lastmod>2017-12-31T09:21:28.953Z</lastmod>
-    <data>
-        <display>
-        <title>手把手教你用github pages搭建博客</title>
-        <pubTime>2017-12-15T18:03:48.000Z</pubTime>
-        
-        <tag>博客</tag>
-         
-        <tag>seo</tag>
-         
-        <tag>索引</tag>
          
          
            
