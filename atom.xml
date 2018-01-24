@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.dmgroup.site/"/>
-  <updated>2018-01-21T06:17:27.147Z</updated>
+  <updated>2018-01-24T10:46:41.795Z</updated>
   <id>http://www.dmgroup.site/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>宿命</title>
+    <link href="http://www.dmgroup.site/2018/01/24/suming/"/>
+    <id>http://www.dmgroup.site/2018/01/24/suming/</id>
+    <published>2018-01-24T10:43:15.000Z</published>
+    <updated>2018-01-24T10:46:41.795Z</updated>
+    
+    <content type="html"><![CDATA[<p>在多次的错过后，我们懂得了珍惜的意义。<br>只是如今，再也没有一个人值得被珍惜。<br>我们戴着面具，为了生存掩饰着自己的脆弱。<br>我们总是在感叹岁月易逝，却不明白生命的意义。<br>我们都是飘落在时光长河上的树叶，死亡就是我们最终的宿命。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在多次的错过后，我们懂得了珍惜的意义。&lt;br&gt;只是如今，再也没有一个人值得被珍惜。&lt;br&gt;我们戴着面具，为了生存掩饰着自己的脆弱。&lt;br&gt;我们总是在感叹岁月易逝，却不明白生命的意义。&lt;br&gt;我们都是飘落在时光长河上的树叶，死亡就是我们最终的宿命。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="宿命" scheme="http://www.dmgroup.site/categories/%E5%AE%BF%E5%91%BD/"/>
+    
+    
+      <category term="宿命" scheme="http://www.dmgroup.site/tags/%E5%AE%BF%E5%91%BD/"/>
+    
+      <category term="格岩" scheme="http://www.dmgroup.site/tags/%E6%A0%BC%E5%B2%A9/"/>
+    
+      <category term="珍惜" scheme="http://www.dmgroup.site/tags/%E7%8F%8D%E6%83%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>浅谈表白</title>
@@ -82,11 +112,11 @@
       <category term="博客" scheme="http://www.dmgroup.site/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="seo" scheme="http://www.dmgroup.site/tags/seo/"/>
     
       <category term="索引" scheme="http://www.dmgroup.site/tags/%E7%B4%A2%E5%BC%95/"/>
+    
+      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -108,11 +138,11 @@
       <category term="博客" scheme="http://www.dmgroup.site/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
+      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
       <category term="Hexo" scheme="http://www.dmgroup.site/tags/Hexo/"/>
     
       <category term="前端" scheme="http://www.dmgroup.site/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
