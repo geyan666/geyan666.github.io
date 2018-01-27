@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[NexT主题添加小人踢球动画插件]]></title>
+    <url>%2F2018%2F01%2F27%2Fhexoblog%2F</url>
+    <content type="text"><![CDATA[嗨！看我博客左上角的小人儿～(手机端就算了) 写在前面 之前刚架自己独立博客时偶然间看到了这个小动画，觉得非常有趣。奈何那时自己属于技术新手，只能眼巴巴地看着别人“高端大气上档次,炫酷狂拽叼炸天”，自己在墙角暗暗“觊觎”。 今天无聊翻看收藏夹时又看到了它，自我感觉应该有此程度的装X能力了，遂装之。 现留配置笔记，以作纪念。 添加动画插件追根溯源各种跟踪，代码作者貌似是这个 G 友，证据如下： 向他致敬。 添加步骤1. 在主题配置文件 _config.yml 中预先添加如下代码：1234# Some suprise plugssuprise: # 踢皮球动画开关 ball_enable: true 2. 在 NexT 主题目录中，打开文件 next/layout/_layout.swig 预先添加如下代码：1234# 判断上面 ball_enable 开关，导入 _partials/suprise/ball.swig (此文件我们下一步添加)&#123;% if theme.suprise.ball_enable %&#125; &#123;% include ’_partials/suprise/ball.swig’ %&#125;&#123;% endif %&#125; 3. 上一步说要导入 ball.swig ，现在就创建一个文件 next/layout/_partials/suprise/ball.swig ，这里面是显示的字 why you are here? ，代码如下：123456789101112131415161718192021&lt;div id="idhyt-surprise-ball"&gt; &lt;div id="idhyt-surprise-ball-animation"&gt; &lt;!--why you are here? --&gt; &lt;span id="layer0Go" class="drag"&gt;w&lt;/span&gt; &lt;span id="layer1Go" class="drag"&gt;h&lt;/span&gt; &lt;span id="layer2Go" class="drag"&gt;y&lt;/span&gt; &lt;span id="layer3Go" class="drag"&gt;&lt;/span&gt; &lt;span id="layer4Go" class="drag"&gt;y&lt;/span&gt; &lt;span id="layer5Go" class="drag"&gt;o&lt;/span&gt; &lt;span id="layer6Go" class="drag"&gt;u&lt;/span&gt; &lt;span id="layer7Go" class="drag"&gt;a&lt;/span&gt; &lt;span id="layer8Go" class="drag"&gt;r&lt;/span&gt; &lt;span id="layer9Go" class="drag"&gt;e&lt;/span&gt; &lt;span id="layer10Go" class="drag"&gt;h&lt;/span&gt; &lt;span id="layer11Go" class="drag"&gt;e&lt;/span&gt; &lt;span id="layer12Go" class="drag"&gt;r&lt;/span&gt; &lt;span id="layer13Go" class="drag"&gt;e&lt;/span&gt; &lt;span id="layer14Go" class="drag"&gt;?&lt;/span&gt; &lt;span id="layer15Go" class="drag ball"&gt;&lt;/span&gt; &lt;/div&gt;&lt;/div&gt;]]></content>
+      <categories>
+        <category>hexoblog</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>前端</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[宿命]]></title>
     <url>%2F2018%2F01%2F24%2Fsuming%2F</url>
     <content type="text"><![CDATA[在多次的错过后，我们懂得了珍惜的意义。只是如今，再也没有一个人值得被珍惜。我们戴着面具，为了生存掩饰着自己的脆弱。我们总是在感叹岁月易逝，却不明白生命的意义。我们都是飘落在时光长河上的树叶，死亡就是我们最终的宿命。]]></content>
@@ -43,9 +56,9 @@
         <category>博客</category>
       </categories>
       <tags>
-        <tag>博客</tag>
         <tag>seo</tag>
         <tag>索引</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -56,9 +69,9 @@
         <category>博客</category>
       </categories>
       <tags>
+        <tag>博客</tag>
         <tag>Hexo</tag>
         <tag>前端</tag>
-        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
