@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.dmgroup.site/"/>
-  <updated>2018-01-27T03:11:13.473Z</updated>
+  <updated>2018-02-03T05:28:35.646Z</updated>
   <id>http://www.dmgroup.site/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ritan</title>
+    <link href="http://www.dmgroup.site/2018/02/03/ritan/"/>
+    <id>http://www.dmgroup.site/2018/02/03/ritan/</id>
+    <published>2018-02-03T05:28:35.000Z</published>
+    <updated>2018-02-03T05:28:35.646Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>NexT主题添加小人踢球动画插件</title>
@@ -138,11 +152,11 @@
       <category term="博客" scheme="http://www.dmgroup.site/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="seo" scheme="http://www.dmgroup.site/tags/seo/"/>
     
       <category term="索引" scheme="http://www.dmgroup.site/tags/%E7%B4%A2%E5%BC%95/"/>
+    
+      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -164,11 +178,11 @@
       <category term="博客" scheme="http://www.dmgroup.site/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
+      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
       <category term="Hexo" scheme="http://www.dmgroup.site/tags/Hexo/"/>
     
       <category term="前端" scheme="http://www.dmgroup.site/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
