@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.dmgroup.site/2018/02/13/chijiwaiguai/</loc>
+    
+    <lastmod>2018-02-13T12:20:41.910Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.dmgroup.site/2018/02/05/dengpao/</loc>
     
     <lastmod>2018-02-12T12:27:49.777Z</lastmod>
@@ -65,13 +72,6 @@
   </url>
   
   <url>
-    <loc>http://www.dmgroup.site/2017/12/04/guowang/</loc>
-    
-    <lastmod>2017-12-31T09:21:28.953Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.dmgroup.site/2017/11/25/2017-11-27-blog/</loc>
     
     <lastmod>2017-12-31T09:21:28.953Z</lastmod>
@@ -86,7 +86,7 @@
   </url>
   
   <url>
-    <loc>http://www.dmgroup.site/2017/12/08/myblog/</loc>
+    <loc>http://www.dmgroup.site/2017/12/04/guowang/</loc>
     
     <lastmod>2017-12-31T09:21:28.953Z</lastmod>
     
@@ -94,6 +94,13 @@
   
   <url>
     <loc>http://www.dmgroup.site/2017/12/04/gudu/</loc>
+    
+    <lastmod>2017-12-31T09:21:28.953Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.dmgroup.site/2017/12/08/myblog/</loc>
     
     <lastmod>2017-12-31T09:21:28.953Z</lastmod>
     
