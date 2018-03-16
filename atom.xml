@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.dmgroup.site/"/>
-  <updated>2018-02-13T12:31:35.618Z</updated>
+  <updated>2018-03-16T12:23:30.985Z</updated>
   <id>http://www.dmgroup.site/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客app发布</title>
+    <link href="http://www.dmgroup.site/2018/03/16/app/"/>
+    <id>http://www.dmgroup.site/2018/03/16/app/</id>
+    <published>2018-03-16T12:20:03.000Z</published>
+    <updated>2018-03-16T12:23:30.985Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天博客的安卓版本将博客网页集成为apk文件，整体构造较为简单与粗糙，由网页与启动页面两个简单的控件构成<br>，下载地址如下<a href="https://www.dmgroup.site/blog.apk">https://www.dmgroup.site/blog.apk</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天博客的安卓版本将博客网页集成为apk文件，整体构造较为简单与粗糙，由网页与启动页面两个简单的控件构成&lt;br&gt;，下载地址如下&lt;a href=&quot;https://www.dmgroup.site/blog.apk&quot;&gt;https://www.dmgroup.site/blog.
+      
+    
+    </summary>
+    
+    
+      <category term="博客app" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2app/"/>
+    
+  </entry>
   
   <entry>
     <title>吃鸡当外挂遇到外挂，会发生什么?</title>
@@ -190,11 +213,11 @@
       <category term="博客" scheme="http://www.dmgroup.site/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
+      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
       <category term="seo" scheme="http://www.dmgroup.site/tags/seo/"/>
     
       <category term="索引" scheme="http://www.dmgroup.site/tags/%E7%B4%A2%E5%BC%95/"/>
-    
-      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -216,11 +239,11 @@
       <category term="博客" scheme="http://www.dmgroup.site/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Hexo" scheme="http://www.dmgroup.site/tags/Hexo/"/>
     
       <category term="前端" scheme="http://www.dmgroup.site/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
