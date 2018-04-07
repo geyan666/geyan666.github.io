@@ -76,7 +76,7 @@
 
 
 
-  <meta name="keywords" content="博客,seo,索引," />
+  <meta name="keywords" content="seo,索引,博客," />
 
 
 
@@ -90,7 +90,7 @@
 
 
 <meta name="description" content="如何使用github pages建立你的网站, 并让百度索引你的网站。如果给你40分钟，可以搭建一个如下图所示的网站，你愿意吗？如果你愿意，那我们就开始干！。如果给你40分钟，可以搭建一个如下图所示的网站，你愿意吗？如果你愿意，那我们就开始干！。">
-<meta name="keywords" content="博客,seo,索引">
+<meta name="keywords" content="seo,索引,博客">
 <meta property="og:type" content="article">
 <meta property="og:title" content="手把手教你用github pages搭建博客">
 <meta property="og:url" content="http://www.dmgroup.site/2017/12/15/blogseobaidu/index.html">
@@ -393,6 +393,18 @@
 
           
             
+            <!--noindex-->
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/12/15/blogseobaidu/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count hc-comment-count" data-xid="2017/12/15/blogseobaidu/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+              <!--/noindex-->
+            
           
 
           
@@ -626,11 +638,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/博客/" rel="tag"><i class="fa fa-tag"></i> 博客</a>
-          
             <a href="/tags/seo/" rel="tag"><i class="fa fa-tag"></i> seo</a>
           
             <a href="/tags/索引/" rel="tag"><i class="fa fa-tag"></i> 索引</a>
+          
+            <a href="/tags/博客/" rel="tag"><i class="fa fa-tag"></i> 博客</a>
           
         </div>
       
@@ -686,7 +698,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDQ3NC83MDI4"></div>
+      <div id="hypercomments_widget"></div>
     </div>
 
   
@@ -1056,28 +1068,31 @@
 
 	
 
+		<script type="text/javascript">
+		_hcwp = window._hcwp || [];
+
+		_hcwp.push({widget:"Bloggerstream", widget_id: 103479, selector:".hc-comment-count", label: "{\%COUNT%\}" });
+
+		
+		_hcwp.push({widget:"Stream", widget_id: 103479, xid: "2017/12/15/blogseobaidu/"});
+		
+
+		(function() {
+		if("HC_LOAD_INIT" in window)return;
+		HC_LOAD_INIT = true;
+		var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
+		var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
+		hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/103479/"+lang+"/widget.js";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hcc, s.nextSibling);
+		})();
+		</script>
+
+	
 
 
 
 
-  
-
-
-
-
-
-  
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
-  
 
 
 

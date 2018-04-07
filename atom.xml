@@ -213,11 +213,11 @@
       <category term="博客" scheme="http://www.dmgroup.site/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="seo" scheme="http://www.dmgroup.site/tags/seo/"/>
     
       <category term="索引" scheme="http://www.dmgroup.site/tags/%E7%B4%A2%E5%BC%95/"/>
+    
+      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -239,11 +239,11 @@
       <category term="博客" scheme="http://www.dmgroup.site/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
+      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
       <category term="Hexo" scheme="http://www.dmgroup.site/tags/Hexo/"/>
     
       <category term="前端" scheme="http://www.dmgroup.site/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
