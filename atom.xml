@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.dmgroup.site/"/>
-  <updated>2018-03-16T12:23:30.985Z</updated>
+  <updated>2018-04-07T05:36:20.654Z</updated>
   <id>http://www.dmgroup.site/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Next主题让页脚的心跳动起来</title>
+    <link href="http://www.dmgroup.site/2018/04/07/blogyouhua/"/>
+    <id>http://www.dmgroup.site/2018/04/07/blogyouhua/</id>
+    <published>2018-04-07T05:34:52.000Z</published>
+    <updated>2018-04-07T05:36:20.654Z</updated>
+    
+    <content type="html"><![CDATA[<p>世界上有一种伟大的力量，它的名字无人不晓，就是<font color="#ff55ba"> ……爱～</font></p><p>更新 NexT 主题后，默认的icon就会变成了 （user），不过这可阻挡不了爱的力量！<br><img src="http://p00xnofp8.bkt.clouddn.com/471.png" alt="此处输入图片的描述"><br>效果 ，首先编辑主题配置文件：</p><pre><code>文件位置：~/blog/themes/next/_config.yml</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">footer:</span><br><span class="line"> -  icon: user</span><br><span class="line"> +  icon: heart</span><br></pre></td></tr></table></figure><p>然后编辑：</p><pre><code>文件位置：~/blog/themes/next/layout/_partials/footer.swig</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">- &lt;span class=<span class="string">"with-love"</span>&gt;</span><br><span class="line">+ &lt;span class=<span class="string">"with-love"</span> id=<span class="string">"heart"</span>&gt;</span><br></pre></td></tr></table></figure><p>接着编辑<code>custom.styl</code>，加入：</p><pre><code>文件位置：~/blog/themes/next/source/css/_custom/custom.styl</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">// 自定义页脚跳动的心样式</span><br><span class="line">@keyframes heartAnimate &#123;</span><br><span class="line">    0%,100%&#123;transform:scale(1);&#125;</span><br><span class="line">    10%,30%&#123;transform:scale(0.9);&#125;</span><br><span class="line">    20%,40%,60%,80%&#123;transform:scale(1.1);&#125;</span><br><span class="line">    50%,70%&#123;transform:scale(1.1);&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">#heart &#123;</span></span><br><span class="line">    animation: heartAnimate 1.33s ease-in-out infinite;</span><br><span class="line">&#125;</span><br><span class="line">.with-love &#123;</span><br><span class="line">    color: rgb(255, 113, 168);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>效果如下：<br><img src="http://p00xnofp8.bkt.clouddn.com/473.png" alt="此处输入图片的描述"><br>color 的值可以改成你自己喜欢的，百度搜索RGB选择颜色<br>可以将网页下拉预览效果</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;世界上有一种伟大的力量，它的名字无人不晓，就是&lt;font color=&quot;#ff55ba&quot;&gt; ……爱～&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;更新 NexT 主题后，默认的icon就会变成了 （user），不过这可阻挡不了爱的力量！&lt;br&gt;&lt;img src=&quot;http://p00xno
+      
+    
+    </summary>
+    
+      <category term="hexoblog" scheme="http://www.dmgroup.site/categories/hexoblog/"/>
+    
+    
+      <category term="Hexo" scheme="http://www.dmgroup.site/tags/Hexo/"/>
+    
+      <category term="前端" scheme="http://www.dmgroup.site/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="NexT" scheme="http://www.dmgroup.site/tags/NexT/"/>
+    
+  </entry>
   
   <entry>
     <title>博客app发布</title>
@@ -213,11 +243,11 @@
       <category term="博客" scheme="http://www.dmgroup.site/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="seo" scheme="http://www.dmgroup.site/tags/seo/"/>
     
       <category term="索引" scheme="http://www.dmgroup.site/tags/%E7%B4%A2%E5%BC%95/"/>
+    
+      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -239,11 +269,11 @@
       <category term="博客" scheme="http://www.dmgroup.site/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
+      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
       <category term="Hexo" scheme="http://www.dmgroup.site/tags/Hexo/"/>
     
       <category term="前端" scheme="http://www.dmgroup.site/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="博客" scheme="http://www.dmgroup.site/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
